@@ -1,0 +1,8 @@
+# personal data never leaves your machine
+data/
+*.db
+__pycache__/
+.pytest_cache/
+.venv/
+.streamlit/secrets.toml
+.DS_Store
