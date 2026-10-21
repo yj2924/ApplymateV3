@@ -1,0 +1,269 @@
+{
+  "name": "Alex Chen",
+  "name_zh": "陈亚历",
+  "email": "alex.chen@example.com",
+  "phone": "+1 (555) 010-2000",
+  "location": "New York, NY",
+  "links": [
+    "github.com/alexchen-demo"
+  ],
+  "work_authorization": {
+    "status": "F-1 OPT (STEM)",
+    "needs_sponsorship": true
+  },
+  "graduation": "2026-12",
+  "available_from": "2027-01",
+  "education": [
+    {
+      "school": "Example University",
+      "school_zh": "示例大学",
+      "location": "New York, NY",
+      "degree": "MS in Statistics",
+      "degree_zh": "统计学硕士",
+      "start": "2025-09",
+      "end": "2026-12",
+      "gpa": "3.7",
+      "coursework": [
+        "Applied Machine Learning",
+        "Statistical Inference",
+        "Causal Inference",
+        "Time Series"
+      ]
+    },
+    {
+      "school": "State University",
+      "school_zh": "州立大学",
+      "location": "Davis, CA",
+      "degree": "BS in Applied Mathematics",
+      "degree_zh": "应用数学学士",
+      "start": "2021-09",
+      "end": "2025-06",
+      "gpa": "3.6",
+      "coursework": [
+        "Probability",
+        "Regression Analysis",
+        "Python Programming"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "org": "Northwind Retail",
+      "org_zh": "Northwind 零售",
+      "role": "Data Science Intern",
+      "role_zh": "数据科学实习生",
+      "location": "Seattle, WA",
+      "start": "2026-06",
+      "end": "2026-08",
+      "bullets": [
+        {
+          "text": "Built a gradient-boosted churn model on 120,000 loyalty members, improving recall by 9% over the existing rules",
+          "text_zh": "基于 120,000 名会员数据构建梯度提升流失模型，召回率比原有规则提升 9%",
+          "skills": [
+            "Python",
+            "Machine Learning"
+          ]
+        },
+        {
+          "text": "Designed and analyzed an A/B test of email cadence across 40,000 users, lifting 30-day retention by 2.1 points",
+          "text_zh": "设计并分析覆盖 40,000 名用户的邮件频率 A/B 测试，30 天留存提升 2.1 个百分点",
+          "skills": [
+            "A/B Testing",
+            "Statistics"
+          ]
+        },
+        {
+          "text": "Automated a weekly KPI dashboard in Tableau, replacing a 4-hour manual Excel report",
+          "text_zh": "用 Tableau 自动化每周 KPI 看板，取代耗时 4 小时的手工 Excel 报表",
+          "skills": [
+            "Tableau",
+            "Data Visualization",
+            "Excel"
+          ]
+        },
+        {
+          "text": "Queried order history in SQL to size the churn-risk segment for the marketing team",
+          "text_zh": "用 SQL 查询订单历史，为市场团队测算流失风险人群规模",
+          "skills": [
+            "SQL"
+          ],
+          "only_if_jd_has": [
+            "SQL"
+          ]
+        }
+      ]
+    },
+    {
+      "org": "Contoso Bank",
+      "org_zh": "Contoso 银行",
+      "role": "Risk Analytics Intern",
+      "role_zh": "风险分析实习生",
+      "location": "Charlotte, NC",
+      "start": "2025-06",
+      "end": "2025-08",
+      "bullets": [
+        {
+          "text": "Segmented 25,000 credit card accounts with K-Means and profiled each segment's default risk",
+          "text_zh": "用 K-Means 对 25,000 个信用卡账户分群，并分析各群违约风险",
+          "skills": [
+            "Machine Learning",
+            "Risk Management",
+            "Python"
+          ]
+        },
+        {
+          "text": "Wrote SQL to reconcile 15 transaction tables, cutting data-quality incidents by 30%",
+          "text_zh": "编写 SQL 核对 15 张交易表，数据质量问题减少 30%",
+          "skills": [
+            "SQL"
+          ],
+          "show": "never"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "JobLens",
+      "subtitle": "LLM resume screener",
+      "subtitle_zh": "大模型简历筛选工具",
+      "year": "2026",
+      "bullets": [
+        {
+          "text": "Built an LLM tool that extracts JD requirements into validated JSON and scores fit, with a rule-based fallback",
+          "text_zh": "开发大模型工具，把 JD 要求抽取为经过校验的 JSON 并评估匹配度，失败时回退到规则引擎",
+          "skills": [
+            "LLM / GenAI",
+            "Python"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transit Forecast",
+      "name_zh": "地铁客流预测",
+      "subtitle": "Course project",
+      "subtitle_zh": "课程项目",
+      "year": "2026",
+      "bullets": [
+        {
+          "text": "Forecast daily subway ridership with SARIMA and gradient boosting; reduced MAPE from 11% to 7%",
+          "text_zh": "用 SARIMA 和梯度提升预测地铁日客流，MAPE 从 11% 降至 7%",
+          "skills": [
+            "Time Series",
+            "Machine Learning",
+            "Python"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "show": "always"
+    },
+    {
+      "name": "SQL",
+      "show": "if_required",
+      "bullets_too": true
+    },
+    {
+      "name": "R",
+      "show": "always"
+    },
+    {
+      "name": "Tableau",
+      "show": "always"
+    },
+    {
+      "name": "Excel",
+      "show": "always"
+    },
+    {
+      "name": "Git",
+      "show": "always"
+    },
+    {
+      "name": "Machine Learning",
+      "show": "always"
+    },
+    {
+      "name": "Statistics",
+      "show": "always"
+    },
+    {
+      "name": "A/B Testing",
+      "show": "always"
+    },
+    {
+      "name": "Time Series",
+      "show": "always"
+    },
+    {
+      "name": "Data Visualization",
+      "show": "always"
+    },
+    {
+      "name": "LLM / GenAI",
+      "show": "always"
+    },
+    {
+      "name": "Risk Management",
+      "show": "if_required"
+    },
+    {
+      "name": "Communication",
+      "show": "if_required"
+    },
+    {
+      "name": "Mandarin",
+      "show": "if_required"
+    },
+    {
+      "name": "SAS",
+      "show": "never"
+    }
+  ],
+  "interests": "Bouldering, film photography",
+  "interests_zh": "抱石、胶片摄影",
+  "preferences": {
+    "target_roles": [
+      "Data Scientist",
+      "Data Analyst",
+      "Product Analyst",
+      "Business Analyst",
+      "Product Manager"
+    ],
+    "excluded_role_keywords": [
+      "sales",
+      "software engineer",
+      "research scientist",
+      "intern",
+      "internship"
+    ],
+    "stretch_role_keywords": [
+      "quant",
+      "quantitative researcher"
+    ],
+    "blocked_companies": [],
+    "application_limits": [
+      {
+        "company": "Initech",
+        "max": 2,
+        "period_days": 180,
+        "note": "incl. affiliates"
+      }
+    ],
+    "reject_if_offline_only": true,
+    "max_years_required": 0,
+    "preferred_hit_threshold": 0.8,
+    "count_unknown_as_miss": true,
+    "reject_if_enrollment_required": true
+  },
+  "writing": {
+    "no_dashes": true,
+    "sign_off": "Sincerely,",
+    "willing_to_relocate": true
+  }
+}
